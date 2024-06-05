@@ -1,0 +1,192 @@
+[gd_scene load_steps=5 format=3 uid="uid://dspo5jx2ipx3y"]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1_s6g6a"]
+[ext_resource type="PackedScene" uid="uid://d1btqlgcfys25" path="res://scenes/bit.tscn" id="1_uo202"]
+[ext_resource type="FontFile" uid="uid://buobtq6ixq60g" path="res://JETBRAINSMONO-REGULAR.TTF" id="3_jlhoc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ojes2"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_s6g6a")
+
+[node name="TextEdit" type="TextEdit" parent="."]
+offset_left = 32.0
+offset_top = 384.0
+offset_right = 240.0
+offset_bottom = 616.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("3_jlhoc")
+theme_override_font_sizes/font_size = 13
+theme_override_styles/normal = SubResource("StyleBoxFlat_ojes2")
+text = "byte Character[] = {
+	b00000,
+	b00000,
+	b00000,
+	b00000,
+	b00000,
+	b00000,
+	b00000,
+	b00000
+}"
+editable = false
+
+[node name="Bit" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 32)
+scale = Vector2(40, 40)
+
+[node name="Bit2" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 32)
+scale = Vector2(40, 40)
+
+[node name="Bit3" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 32)
+scale = Vector2(40, 40)
+
+[node name="Bit4" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 32)
+scale = Vector2(40, 40)
+
+[node name="Bit5" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 32)
+scale = Vector2(40, 40)
+
+[node name="Bit6" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 74)
+scale = Vector2(40, 40)
+
+[node name="Bit7" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 74)
+scale = Vector2(40, 40)
+
+[node name="Bit8" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 74)
+scale = Vector2(40, 40)
+
+[node name="Bit9" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 74)
+scale = Vector2(40, 40)
+
+[node name="Bit10" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 74)
+scale = Vector2(40, 40)
+
+[node name="Bit11" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 116)
+scale = Vector2(40, 40)
+
+[node name="Bit12" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 116)
+scale = Vector2(40, 40)
+
+[node name="Bit13" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 116)
+scale = Vector2(40, 40)
+
+[node name="Bit14" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 116)
+scale = Vector2(40, 40)
+
+[node name="Bit15" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 116)
+scale = Vector2(40, 40)
+
+[node name="Bit16" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 158)
+scale = Vector2(40, 40)
+
+[node name="Bit17" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 158)
+scale = Vector2(40, 40)
+
+[node name="Bit18" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 158)
+scale = Vector2(40, 40)
+
+[node name="Bit19" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 158)
+scale = Vector2(40, 40)
+
+[node name="Bit20" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 158)
+scale = Vector2(40, 40)
+
+[node name="Bit21" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 200)
+scale = Vector2(40, 40)
+
+[node name="Bit22" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 200)
+scale = Vector2(40, 40)
+
+[node name="Bit23" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 200)
+scale = Vector2(40, 40)
+
+[node name="Bit24" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 200)
+scale = Vector2(40, 40)
+
+[node name="Bit25" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 200)
+scale = Vector2(40, 40)
+
+[node name="Bit26" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 242)
+scale = Vector2(40, 40)
+
+[node name="Bit27" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 242)
+scale = Vector2(40, 40)
+
+[node name="Bit28" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 242)
+scale = Vector2(40, 40)
+
+[node name="Bit29" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 242)
+scale = Vector2(40, 40)
+
+[node name="Bit30" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 242)
+scale = Vector2(40, 40)
+
+[node name="Bit31" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 284)
+scale = Vector2(40, 40)
+
+[node name="Bit32" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 284)
+scale = Vector2(40, 40)
+
+[node name="Bit33" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 284)
+scale = Vector2(40, 40)
+
+[node name="Bit34" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 284)
+scale = Vector2(40, 40)
+
+[node name="Bit35" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 284)
+scale = Vector2(40, 40)
+
+[node name="Bit36" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(32, 326)
+scale = Vector2(40, 40)
+
+[node name="Bit37" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(74, 326)
+scale = Vector2(40, 40)
+
+[node name="Bit38" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(116, 326)
+scale = Vector2(40, 40)
+
+[node name="Bit39" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(158, 326)
+scale = Vector2(40, 40)
+
+[node name="Bit40" parent="." instance=ExtResource("1_uo202")]
+position = Vector2(200, 326)
+scale = Vector2(40, 40)

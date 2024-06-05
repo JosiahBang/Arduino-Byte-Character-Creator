@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://d1btqlgcfys25"]
+
+[ext_resource type="Script" path="res://scripts/bit.gd" id="1_h2kg4"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_pxjvd"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_4bio1"]
+
+[node name="Bit" type="Node2D" groups=["bit"]]
+script = ExtResource("1_h2kg4")
+on_color = Color(1, 1, 1, 1)
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="."]
+position = Vector2(0.5, 0.5)
+mesh = SubResource("QuadMesh_pxjvd")
+
+[node name="Panel" type="Panel" parent="."]
+offset_right = 1.0
+offset_bottom = 1.0
+theme_override_styles/panel = SubResource("StyleBoxEmpty_4bio1")
+
+[connection signal="mouse_entered" from="Panel" to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="Panel" to="." method="_on_mouse_exited"]
